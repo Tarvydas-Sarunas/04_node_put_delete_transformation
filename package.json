@@ -1,0 +1,33 @@
+{
+  "name": "04_node_put_delete_transformation",
+  "version": "1.0.0",
+  "description": "First lesson with delete and transformation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarvydas-Sarunas/04_node_put_delete_transformation.git"
+  },
+  "keywords": [
+    "put",
+    "delete",
+    "transformation"
+  ],
+  "author": "Sarunas Tarvydas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tarvydas-Sarunas/04_node_put_delete_transformation/issues"
+  },
+  "homepage": "https://github.com/Tarvydas-Sarunas/04_node_put_delete_transformation#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
