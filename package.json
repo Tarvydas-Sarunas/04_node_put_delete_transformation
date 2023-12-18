@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "dev": "nodemon src/server"
   },
   "repository": {
@@ -23,6 +25,9 @@
   },
   "homepage": "https://github.com/Tarvydas-Sarunas/04_node_put_delete_transformation#readme",
   "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
     "nodemon": "^3.0.2"
   },
   "dependencies": {
