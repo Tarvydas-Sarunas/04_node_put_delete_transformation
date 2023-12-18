@@ -1,0 +1,10 @@
+GET http://localhost:3000/
+
+### Grazina All users
+GET http://localhost:3000/api/users
+
+### Grazina Single user
+GET http://localhost:3000/api/users/3
+
+### DELETE Single user
+DELETE http://localhost:3000/api/users/2

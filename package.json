@@ -2,7 +2,7 @@
   "name": "04_node_put_delete_transformation",
   "version": "1.0.0",
   "description": "First lesson with delete and transformation",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node src/server",
     "dev": "nodemon src/server"
